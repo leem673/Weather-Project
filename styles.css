@@ -1,0 +1,105 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(228, 247, 255) 21.9%,
+    rgb(255, 216, 194) 90%
+  );
+}
+.container-sm {
+  position: fixed;
+  top: 40px;
+  right: -225px;
+}
+h1,
+h2,
+h3 {
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+h1 {
+  font-family: "Monomaniac One", sans-serif;
+  font-size: 34px;
+  margin-top: 10px;
+}
+.date-time {
+  margin-left: 20px;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+}
+.high-temp {
+  font-weight: 700;
+}
+.high-unit {
+  font-size: 18px;
+  position: relative;
+  top: -9px;
+}
+.low-temp {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.low-unit {
+  font-size: 14px;
+  position: relative;
+  top: -7px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(121, 194, 208);
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  line-height: 25px;
+}
+.search-icon {
+  display: inline-flex;
+  font-size: 20px;
+}
+.search-icon:hover {
+  cursor: pointer;
+}
+.card {
+  background-color: rgba(121, 194, 208, 0.5);
+  border: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0px;
+}
+.card-title {
+  font-family: "Monomaniac One", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+}
+.emoji {
+  font-size: 24px;
+}
+.weekday-high {
+  font-size: 18px;
+  font-weight: 700;
+}
+.weekday-low {
+  font-size: 18px;
+  font-weight: 400;
+}
+img {
+  border-radius: 10px;
+  box-shadow: 10px 15px 15px rgba(226, 158, 118, 0.5);
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.coder {
+  color: #79c2d0;
+  font-family: "Monomaniac One", sans-serif;
+  font-size: 20px;
+  margin: 30px;
+  text-align: center;
+}
