@@ -103,3 +103,10 @@ img {
   margin: 30px;
   text-align: center;
 }
+.open-source {
+  color: #79c2d0;
+  text-decoration: underline;
+}
+.open-source:hover {
+  color: white;
+}
